@@ -1,0 +1,6 @@
+cluster.name: apisearch
+network.bind_host: 0.0.0.0
+http.port: 9200
+transport.tcp.port: 9300
+discovery.zen.minimum_master_nodes: 1
+
