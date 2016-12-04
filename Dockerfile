@@ -1,2 +1,6 @@
-FROM elasticsearch:5.0.0
-COPY elasticsearch.yml /usr/share/elasticsearch/config/elasticsearch.yml
+FROM elasticsearch:5.0.2
+
+RUN bin/elasticsearch-plugin install analysis-icu
+
+COPY config config/
+
