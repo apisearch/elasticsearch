@@ -5,3 +5,9 @@ Default elasticsearch does not work with golang projetcs. Added config which fix
 - GitHub: https://github.com/apisearch/elasticsearch
 - Docker Hub: https://hub.docker.com/r/apisearch/elasticsearch/
 
+
+#### Installed some additional things:
+
+- icu plugin
+- czech dictionary
+
