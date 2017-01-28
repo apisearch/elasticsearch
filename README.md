@@ -1,4 +1,4 @@
-# Elasticsearch 5 with fixed bind_host
+# Elasticsearch 5 for Golang apps
 
 Default elasticsearch does not work with Golang projetcs. Added config which fixes this problem.
 
