@@ -10,4 +10,3 @@ Default elasticsearch does not work with golang projetcs. Added config which fix
 
 - icu plugin
 - czech dictionary
-
