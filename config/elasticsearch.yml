@@ -1,5 +1,6 @@
 cluster.name: apisearch
-http.host: 0.0.0.0
+network.bind_host: 0.0.0.0
+#http.host: 0.0.0.0
 #network.host: 0.0.0.0
 #transport.host: 0.0.0.0
 #http.port: 9200
