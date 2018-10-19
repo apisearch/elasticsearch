@@ -20,7 +20,7 @@ Here is settings which works for me:
 ### Running Golang app natively with dockerized ES
   
 - GitHub branch of Elasticsearch: `develop`
-- Docker tak of ES: `apisearch/elasticsearch:develop`
+- Docker tag of ES: `apisearch/elasticsearch:develop`
 - expose port `9200` of ES container 
 - Golang app connection config:
   
@@ -32,7 +32,7 @@ client, err := elastic.NewClient(elastic.SetURL("http://localhost:9200"))
 ### Running Golang inside Docker container with dockerized ES
   
 - GitHub branch of Elasticsearch: `master`
-- Docker tak of ES: `apisearch/elasticsearch:latest`
+- Docker tag of ES: `apisearch/elasticsearch:latest`
 - Golang app connection config (replace `elasticsearch` with name of your container):
   
 ```golang
